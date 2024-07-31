@@ -1,0 +1,95 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui;
+  background-color: #00A7FF;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #FFFFFF;
+}
+
+header {
+  height: 120px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  background-color: #005D8E;
+}
+
+.container {
+  padding: 15px 10px;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#postList {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5px;
+}
+
+.postItem {
+  padding: 8px;
+  width: 400px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: #F59914;
+}
+
+.postItem h1 {
+  font-size: 18px;
+  color: red;
+}
+
+#body {
+  color: black;
+}
+
+.postItem p {
+  font-size: 14px;
+}
+
+#commentList {
+  border: 1px solid #1CE882;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#commentList p {
+  color: darkblue;
+}
